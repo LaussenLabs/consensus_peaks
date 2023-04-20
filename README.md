@@ -74,7 +74,7 @@ If you want to contribute to the project, please submit an issue or a pull reque
 
 ## License
 
-The project's license is currently unknown.
+This project is licensed under the Apache 2.0 License. See the [LICENSE](LICENSE) file for more information.
 
 ## Acknowledgments
 
