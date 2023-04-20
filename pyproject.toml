@@ -1,0 +1,27 @@
+[build-system]
+requires = [
+    "setuptools>=67.6.0",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "consensus_peaks"
+version = "0.1.0"
+authors = [{ name = "William Dixon", email = "will.dixon@sickkids.ca" }]
+description = "A package for consensus peak detection"
+keywords = ["peaks", "rpeaks", "consensus", "detection"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+]
+
+dependencies = [
+    'tomli; python_version < "3.11"',
+    "wfdb >= 4.1.0, < 5",
+    "PyWavelets >= 1.4.1, < 2",
+    "pytest >= 7.3.1, < 8",
+    "neurokit2 >= 0.2.4, < 1",
+    "heartpy >= 1.2.7, < 2",
+    "biosppy >= 1.0.0, < 2",
+]
