@@ -1,2 +1,27 @@
-/tests/.pytest_cache/
-/venv/
+# Compiled Python files
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# PyCharm settings
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Local development settings
+venv/
+*.env
+*.log
+*.sqlite3
+*.pyc
+
+# Other
+.DS_Store
+*.bak
+*.swp
