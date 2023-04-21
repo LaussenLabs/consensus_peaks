@@ -78,7 +78,7 @@ This project is licensed under the Apache 2.0 License. See the [LICENSE](LICENSE
 
 ## Acknowledgments
 
-Andrew Goodwin and William Dixon are responsible for developing the consensus technique used in this project.
+William Dixon and Andrew Goodwin are responsible for developing the consensus technique used in this project.
 
 We would like to extend our gratitude to the following libraries and their contributors for providing valuable resources and methods that were used in the development of the `consensus_peaks` library:
 
